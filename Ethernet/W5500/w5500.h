@@ -49,7 +49,8 @@
 #define  _W5500_H_
 
 #include <stdint.h>
-#include "wizchip_conf.h"
+//#include "wizchip_conf.h"
+#include "../wizchip_conf.h"
 
 /// @cond DOXY_APPLY_CODE
 #if   (_WIZCHIP_ == 5500)

@@ -719,7 +719,7 @@ int32_t recvfrom(uint8_t sn, uint8_t * buf, uint16_t len, uint8_t * addr, uint16
 			else pack_len = sock_remained_size[sn];
 			wiz_recv_data(sn,buf,pack_len);
 		   break;
-//   #if ( _WIZCHIP_ < 5200 )
+   #if ( _WIZCHIP_ < 5200 )
 		case Sn_MR_IPRAW:
 		   if(sock_remained_size[sn] == 0)
 		   {
